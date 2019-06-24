@@ -3,11 +3,17 @@ import ToolItem from "./ToolItem";
 
 import ToolContext from "../store/ToolContext";
 
+import "./ToolList.css";
+
 const ToolList = props => {
   return (
-    <ToolContext.Consumer>
-      {({ tools }) => tools.map(tool => <ToolItem key={tool.id} tool={tool} />)}
-    </ToolContext.Consumer>
+    <div class="toolList">
+      <ToolContext.Consumer>
+        {({ tools }) =>
+          tools.map(tool => <ToolItem key={tool.id} tool={tool} />)
+        }
+      </ToolContext.Consumer>
+    </div>
   );
 };
 

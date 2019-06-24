@@ -1,6 +1,23 @@
-section#tool-list {
+section#main-page {
   width: 100%;
-  max-width: 580px;
-  margin: 0 auto;
+  max-width: 700px;
+  margin: 70px auto;
   padding: 0 30px;
+}
+
+section#main-page header {
+}
+
+section#main-page header h1 {
+  font-size: 40px;
+}
+
+section#main-page section#search {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 25px;
+}
+
+section#main-page section#search button {
+  float: right;
 }

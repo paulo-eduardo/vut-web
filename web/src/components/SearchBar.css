@@ -1,0 +1,9 @@
+section#search-bar {
+  width: 75%;
+  float: left;
+}
+
+section#search-bar .tag {
+  font-size: 18px;
+  width: 40%;
+}

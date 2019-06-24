@@ -5,7 +5,7 @@ import api from "./api";
 import "./App.css";
 
 import ToolList from "./components/ToolList";
-import SeachBar from "./components/SeachBar";
+import SearchBar from "./components/SearchBar";
 import AddModal from "./components/AddModal";
 import RemoveModal from "./components/RemoveModal";
 
@@ -103,10 +103,15 @@ export default class App extends Component {
     };
     return (
       <ToolContext.Provider value={value}>
-        <section id="tool-list">
-          <h1> VUTTR </h1>
-          <SeachBar />
-          <button onClick={openAddModal}>+ Add</button>
+        <section id="main-page">
+          <header>
+            <h1> VUTTR </h1>
+            <h2>Very Useful Tools to Remember</h2>
+          </header>
+          <section id="search">
+            <SearchBar />
+            <button onClick={openAddModal}>+ Add</button>
+          </section>
           <ToolList />
           <AddModal />
           <RemoveModal />

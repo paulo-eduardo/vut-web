@@ -1,0 +1,27 @@
+section#toolItem {
+  margin-bottom: 30px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+section#toolItem section#headerTool {
+  overflow: hidden;
+  width: 90%;
+  margin: 20px auto 0;
+}
+
+section#toolItem section#headerTool a {
+  font-size: 24px;
+  font-weight: bold;
+  float: left;
+}
+
+section#toolItem section#headerTool button {
+  float: right;
+}
+
+section#toolItem section#contentTool {
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+}
