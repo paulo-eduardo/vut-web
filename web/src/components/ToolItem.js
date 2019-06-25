@@ -12,9 +12,9 @@ const ToolItem = props => {
         <a href={link}>{title}</a>
         <ToolContext.Consumer>
           {({ openRemoveModal }) => (
-            <button onClick={() => openRemoveModal(props.tool)}>
+            <label onClick={() => openRemoveModal(props.tool)}>
               - Remove
-            </button>
+            </label>
           )}
         </ToolContext.Consumer>
       </section>

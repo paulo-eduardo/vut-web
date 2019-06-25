@@ -6,7 +6,7 @@ section#toolItem {
 
 section#toolItem section#headerTool {
   overflow: hidden;
-  width: 90%;
+  width: 95%;
   margin: 20px auto 0;
 }
 
@@ -16,32 +16,21 @@ section#toolItem section#headerTool a {
   float: left;
 }
 
-section#toolItem section#headerTool button {
-  float: right;
-}
-
-section#toolItem section#contentTool {
-  overflow: hidden;
-  width: 90%;
-  margin: 0 auto;
-}
-
-section#toolItem section#headerTool button {
+section#toolItem section#headerTool label {
   float: right;
   font-family: "Source Sans Pro";
   font-weight: bold;
-  font-size: 14px;
-  width: 122px;
-  height: 50px;
-  background-color: rgba(249, 94, 90, 1);
-  border: 5px;
-  color: rgba(225, 231, 253, 1);
-  padding: 14px 20px;
+  font-size: 16px;
+  background-color: transparent;
+  color: rgba(249, 94, 90, 1);
+  margin: 10px 0;
   float: right;
   border-radius: 4px;
   cursor: pointer;
 }
 
-section#toolItem section#headerTool button:hover {
-  background-color: rgba(204, 76, 76, 1);
+section#toolItem section#contentTool {
+  overflow: hidden;
+  width: 95%;
+  margin: auto;
 }
