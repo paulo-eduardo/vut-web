@@ -6,4 +6,12 @@ section#search-bar {
 section#search-bar .tag {
   font-size: 18px;
   width: 40%;
+  height: 30px;
+  background: url(../assets/Icon-Search-2px.svg) no-repeat scroll 7px 7px;
+  background-size: 20px;
+  padding-left: 35px;
+}
+
+section#search-bar .only_tag {
+  margin: 0 5px 0 15px;
 }

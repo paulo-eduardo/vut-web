@@ -1,0 +1,60 @@
+section#removeModal section#header b {
+  float: left;
+  margin: auto 10px;
+}
+
+section#removeModal section#header {
+  width: 95%;
+  margin: 20px auto;
+  font-size: 24px;
+}
+
+section#removeModal section#content {
+  width: 90%;
+  margin: 40px auto;
+  color: rgba(143, 138, 155, 1);
+}
+
+section#removeModal section#footer {
+  float: right;
+}
+
+section#removeModal section#footer button.submit {
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  font-size: 18px;
+  width: 155px;
+  height: 50px;
+  background-color: rgba(54, 93, 240, 1);
+  color: rgba(225, 231, 253, 1);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+section#removeModal section#footer button.submit:hover {
+  background-color: rgb(27, 72, 236);
+}
+
+section#removeModal section#footer button.cancel {
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  font-size: 18px;
+  width: 122px;
+  height: 50px;
+  background-color: rgba(225, 231, 253, 1);
+  color: rgba(54, 93, 240, 1);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+section#removeModal section#footer button.cancel:hover {
+  background-color: rgb(187, 193, 214);
+}

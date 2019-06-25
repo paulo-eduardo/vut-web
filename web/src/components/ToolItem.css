@@ -25,3 +25,23 @@ section#toolItem section#contentTool {
   width: 90%;
   margin: 0 auto;
 }
+
+section#toolItem section#headerTool button {
+  float: right;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  font-size: 14px;
+  width: 122px;
+  height: 50px;
+  background-color: rgba(249, 94, 90, 1);
+  border: 5px;
+  color: rgba(225, 231, 253, 1);
+  padding: 14px 20px;
+  float: right;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+section#toolItem section#headerTool button:hover {
+  background-color: rgba(204, 76, 76, 1);
+}

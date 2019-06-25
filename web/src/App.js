@@ -61,19 +61,24 @@ export default class App extends Component {
     this.setState({ modalRemoveIsOpen: false, removingTool: {} });
   };
 
-  removeTool = async () => {
-    await api.delete(`/tools/${this.state.removingTool.id}`);
+  removeTool = () => {
+    let toolId = this.state.removingTool.id;
+    api.delete(`/tools/${toolId}`).then(() => {
+      var array = [...this.state.tools]; // make a separate copy of the array
+      var index = array.findIndex(x => x.id === toolId);
+      if (index > -1) {
+        array.splice(index, 1);
+        this.setState({ tools: array });
+      }
+    });
     this.closeRemoveModal();
   };
 
-  addTool = async tool => {
-    await api.post("/tools", tool);
-    // .then(response => {
-    //   debugger;
-    //   Object.assign({}, this.state, {
-    //     tools: [...this.state.tools, response.data]
-    //   });
-    // });
+  addTool = tool => {
+    api.post("/tools", tool).then(response => {
+      this.setState({ tools: [...this.state.tools, response.data] });
+      this.closeAddModal();
+    });
   };
 
   render() {

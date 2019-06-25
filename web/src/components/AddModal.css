@@ -1,0 +1,59 @@
+section#addmodal section#header {
+  width: 95%;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+section#addmodal section#header h2 {
+  float: left;
+}
+
+section#addmodal section#form {
+  width: 90%;
+  margin: 40px auto;
+}
+
+section#addmodal section#form input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+section#addmodal section#form textarea {
+  width: 100%;
+  height: 100px;
+  padding: 12px 20px;
+  margin: 20px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+section#addmodal section#form {
+  overflow: hidden;
+}
+
+section#addmodal section#form button {
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  font-size: 18px;
+  width: 155px;
+  height: 50px;
+  background-color: rgba(13, 203, 125, 1);
+  color: rgba(225, 231, 253, 1);
+  padding: 14px 20px;
+  float: right;
+  border: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 20px 0px 0px;
+}
+
+section#addmodal section#form button:hover {
+  background-color: rgba(16, 178, 108, 1);
+}
